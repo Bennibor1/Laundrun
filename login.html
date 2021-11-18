@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content="Online laudry service platform" />
     <meta name="author" content="Bennibor Onisomemise" />
-    <title>Login/Sign Up</title>
+    <title>Sign In/Sign Up</title>
     <link rel="stylesheet" href="./css/login.css" />
    
   </head>
@@ -15,21 +15,22 @@
           <div class="form-box">
               <div class="button-box">
                   <div id="btn"></div>
-                  <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                  <button type="button" class="toggle-btn" onclick="login()">Sign In</button>
                   <button type="button" class="toggle-btn" onclick="signup()">Sign Up</button>
               </div>
           
+              
           <form action="index.html" id="login" class="input-group">
               <input type="text" class="input-field" placeholder="Enter Username" required>
-              <input type="password" class="input-field" placeholder="Enter Password" required>
+              <input type="password" class="input-field" placeholder="6 to 4 alphanumeric characters" required>
               <input type="checkbox" class="check-box"><span>Forgot Password?</span>
               <button type="submit" class="submit-btn">Sign In</button>
           </form>
-          
+         
           <form action="index.html" id="signup" class="input-group">
             <input type="text" class="input-field" placeholder="Username" required>
             <input type="email" class="input-field" placeholder="Email" required>
-            <input type="password" class="input-field" placeholder="Enter Password" required>
+            <input type="password" class="input-field" placeholder="6 to 4 alphanumeric characters" required>
             <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
             <button type="submit" class="submit-btn">Sign Up</button>
         </form>
